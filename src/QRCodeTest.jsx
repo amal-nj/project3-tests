@@ -26,7 +26,7 @@ export default class QRCodeTest extends Component {
         this.setState({lname: event.target.value});
     }
   render() {
-    const QR=this.state.show?<QRCode style={{padding: '50px'}} value={`${this.state.fname} ${this.state.lname}`} size="300"/>:"";
+    const QR=this.state.show?<QRCode style={{padding: '50px'}} value={`${this.state.fname} ${this.state.lname}`} />:"";
     return (
       <div>
         <form name="myForm"  > 
