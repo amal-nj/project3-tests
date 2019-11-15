@@ -5,8 +5,10 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "google-maps-react": "^2.0.2",
+    "qrcode.react": "^1.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
   "scripts": {
